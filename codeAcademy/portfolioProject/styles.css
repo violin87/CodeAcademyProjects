@@ -1,0 +1,171 @@
+ 
+
+header {
+
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  
+}
+
+nav {
+
+display: flex;
+gap: 10px;
+
+}
+
+main {
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+
+}
+
+.info {
+
+  font-size: 25px;
+  font-style: italic;
+
+}
+
+figure {
+   
+   border: 3px solid black;
+   height: 30%;
+   width: auto;
+   text-align: center;
+ 
+
+}
+
+p {
+
+width: 80%;
+
+}
+
+figure img {
+
+   width: 183px;
+   height: 183px;
+
+
+}
+
+i{
+word-spacing: 20px;
+font-size: large;
+}
+
+.projects ul {
+
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    
+    
+
+
+
+}
+
+.iscript::before  {
+
+     content: url('https://img.icons8.com/?size=100&id=8kgqBk4Qgj9P&format=png&color=000000');
+
+     vertical-align: middle;
+      }
+.iSQL::before  {
+
+ 
+
+       content: url('https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000');
+
+       vertical-align: middle;
+       
+}
+
+.iCSS::before {
+
+  content: url('https://img.icons8.com/?size=100&id=38986&format=png&color=000000');
+  vertical-align: middle;
+
+}
+
+.iHTML::before {
+
+    content: url('https://img.icons8.com/?size=100&id=59916&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  .iReact::before {
+
+    content: url('https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  .iRedux::before {
+
+    content: url('https://img.icons8.com/?size=100&id=kKz6pJYSDL24&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  /* Project Page */
+  .projectHeader {
+
+    
+  display: flex;
+ 
+  width: auto;
+
+
+  }
+
+  .sectionProject {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.navProject {
+  display: flex;
+  gap: 10px; 
+}
+
+.tableProject, thead, tbody, tr, td {
+
+   border: 2px solid black;
+
+}
+
+.tableProject{
+
+   width: 400px;
+   height: 100px;
+   margin-top: 140px;
+
+}
+
+.generalInformation {
+
+  border: 2px solid red;
+
+
+
+}
+
+.sectionProject {
+
+   display: flex;
+  flex-direction:column ;
+
+
+
+}

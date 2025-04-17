@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+</head>
+
+
+<body class = 'projectBody'>
+
+<header class ='projectHeader'>
+
+   <h1> My Projects </h1>
+  <nav class = 'navProject'>
+    <a href = '/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/main.html'> Main Page </a>
+    <a href = '/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/myInfo.html'> About Me </a>
+    <a href = '/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/contactInfo.html'> My Contact</a>
+   
+</nav>
+</header>
+   
+    <section class = 'sectionProject'>
+
+        <button onclick="addProject()"> Add Project</button>
+        <label for = 'information'> Project Name </label>
+        <input class = informationInput name = 'information' type = 'text'/>
+        <label for = 'description'> Project Description </label>
+        <input class = descriptionInput name = 'description' type = 'text'/>
+        <label for = 'technology'> Project Technology</label>
+        <input class = technologyInput name = 'technology' type = 'text'/>
+
+        <table class = 'tableProject'>
+         <thead> 
+          <tr>
+            <th>Project Name </th>
+            <th>Description</th>
+            <th>Technology Used</th>
+          </tr>
+        </thead>
+          <tbody>
+          <tr class = 'tableInformation'>
+ 
+            <td> Calculator  </td>
+            <td> Created to help my daughter to learn math and make the process more interactive</td>
+            <td>CSS, Annimation, HTML, JavaScript, React,</td>
+           </tr>
+
+           <tr>
+
+             <td> Scheduler</td>
+             <td> Dynamic scheduler, which adjust the timeslots depends on amount of people</td>
+             <td> CSS, JavaScript, React, HTML</td>
+           </tr>
+           </tbody>
+       
+       </table>
+
+    </section>
+
+    <script src = 'addToTable .js' defer></script>
+
+</body>
+</html>
