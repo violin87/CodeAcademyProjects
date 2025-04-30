@@ -7,14 +7,13 @@
   
     <title>Document</title>
 </head>
- <!-- <script type = 'module'> import {toggleColor} from './colorChange.js';
-</script> -->
-<body>
+
+<body class = 'myInfo'>
   <header>
   
     <h1> Evgeny Zvonnikov </h1>
       
-   <nav> 
+   <nav class = 'navMyInfo'> 
      
     <a href ='/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/main.html'> Main Page</a>
     <a href = '/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/projects.html'> Projects</a>
@@ -66,8 +65,11 @@ In recent years, Mr. Zvonnikov has expanded his skill set by pursuing a Professi
  </div>
 
  <button onclick= "toggleColor()"> Color Change</button>
- <script src = 'colorChange.js' >   </script>
- <script src = 'styleChange.js'> </script>
+
  <button onclick = 'toggleStyle()' defer> Style Change</button>
-</body onclick = 'toggleStyle.js'>
+ <button class = "darkModeInfo" onclick="darkModeHandle()"> Dark Mode </button>
+ <script src = 'colorChange.js' > </script>
+ <script src = 'styleChange.js'> </script>
+ <script src = 'darkModes/darkModeMyInfo.js' defer></script>
+</body>
 </html>

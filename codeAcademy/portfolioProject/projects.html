@@ -31,6 +31,7 @@
         <input class = descriptionInput name = 'description' type = 'text'/>
         <label for = 'technology'> Project Technology</label>
         <input class = technologyInput name = 'technology' type = 'text'/>
+        <button onclick="deleteProject()">  Delete Project</button>
 
         <table class = 'tableProject'>
          <thead> 
@@ -40,7 +41,7 @@
             <th>Technology Used</th>
           </tr>
         </thead>
-          <tbody>
+          <tbody class = 'projectBody'>
           <tr class = 'tableInformation'>
  
             <td> Calculator  </td>
@@ -60,7 +61,13 @@
 
     </section>
 
-    <script src = 'addToTable .js' defer></script>
+    <section class ='buttonSection'>
+    <button class = 'darkModeProject' onclick="projectDarkMode()" >Dark Mode</button>
+  </section>
+
+  <script src = 'addToTable .js' defer></script>
+  <script src = 'deleteButton.js'></script>
+  <script src = 'darkModes/darkModeProjects.js'></script>
 
 </body>
 </html>

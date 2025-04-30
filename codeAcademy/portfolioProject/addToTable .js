@@ -2,17 +2,21 @@ let table = document.querySelector('.tableProject')
 let input = document.querySelector('.informationInput')
 let inputDescription = document.querySelector('.descriptionInput')
 let inputTechnology = document.querySelector('.technologyInput')
-let index = 0
+let tbody = table.querySelector('tbody')
+
+
 
 
 
 const addProject = () => {
+   
    const newProjectRow = document.createElement('tr')
+   newProjectRow.className = 'newRow'
 //    newRow.classList.add('newRow', `row-${index++}`)
    const data = document.createElement('td')
    data.innerText = input.value
    
-   table.appendChild(newProjectRow)
+   tbody.appendChild(newProjectRow)
    newProjectRow.appendChild(data)
    input.value = ''
 
