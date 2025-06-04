@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class = 'contactBody'>
+
+  <header class = contactHeader>
+
+    <h1></h1>
+
+    <nav class = "navHeader"> 
+     
+      <a href ='/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/main.html'> Main Page</a>
+      <a href = "/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/myInfo.html"> About Me</a>
+      <a href = '/Users/jeka/Desktop/My SOftware Developer Projects/codeAcademy/portfolioProject/projects.html'> Projects</a>
+     
+  
+     </nav>
+
+
+
+
+  </header>
+
+
+
+    <div class = 'listOfLinks'>
+
+      <strong>
+
+       <h2>My Social Medias </h2>
+
+        <a  href = 'https://www.facebook.com' target = '_blank'> <img src ='https://img.icons8.com/?size=100&id=118467&format=png&color=000000' alt = 'Facebook Icon '>
+        </a>
+
+        <a href = 'https://www.linkedin.com/in/evgeny-zvonnikov-30600539/' target = '_blank'> <img src = 'https://img.icons8.com/?size=100&id=8808&format=png&color=000000' alt = 'LikedIn Icon'/>
+        </a>
+
+        <a href = 'https://vk.com/' target = '_blank'> <img src = 'https://img.icons8.com/?size=100&id=13977&format=png&color=000000' alt = 'Vkontakte'>
+
+        </a>
+
+        <a href = 'https://www.youtube.com/' target = '_blank'> <img src = 'https://img.icons8.com/?size=100&id=108794&format=png&color=000000'>
+        </a>
+     </strong>
+
+   </div>
+
+   <div class = 'form'>
+   
+    <h2> Send The Message: </h2>
+     
+    <form>
+
+    <textarea class = 'myTextarea'>
+   </textarea>
+
+   <input type = 'submit' value = 'submit' onsubmit="clearTextarea()"> </input>
+
+
+    </form>
+  </div>
+
+  <footer class = 'informationCOntainer'>
+      <div class = infoDiv> 
+      
+      <h3>Phone Number: (xxx)xxx-xx-xx </h3>
+      
+      <h3> Email Address: egenpb@gmail.com</h3>
+      <button onclick="darkContactMode()"> Dark Mode</button>
+      </div>
+ </footer>
+
+   <script>
+
+      const clearTextarea = () => {
+
+
+      document.querySelector('.myTextarea').value = ''
+
+      }
+
+   
+   </script>
+   <script src = 'darkModes/darkModeContact.js' defer > </script>
+    
+</body>
+</html>

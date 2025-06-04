@@ -1,0 +1,292 @@
+ 
+
+.body {
+
+    background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/winter-mountains-scenery-vertical-free-image.jpg?w=1024&quality=50');
+    background-size: cover;
+    height: 100%;
+
+}
+
+.projectBody {
+
+     
+  background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/broken-laptop-with-swollen-battery-free-photo.jpg?w=2210&quality=70");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 100vh
+
+
+}
+header {
+
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+
+  
+}
+
+
+
+nav {
+
+display: flex;
+gap: 10px;
+
+}
+
+main {
+display: flex;
+justify-content: space-between;
+width: 100%;
+border: 2px solid red;
+
+
+}
+
+.info {
+
+  font-size: 25px;
+  /* font-style: italic; */
+
+  
+}
+
+figure {
+   
+   border: 3px solid black;
+   height: 30%;
+   width: auto;
+   text-align: center;
+ 
+
+}
+
+p {
+
+width: 80%;
+
+}
+
+figure img {
+
+   width: 183px;
+   height: 183px;
+
+
+}
+
+i{
+word-spacing: 20px;
+font-size: large;
+}
+
+.projects ul {
+
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    
+    
+
+
+
+}
+
+.iscript::before  {
+
+     content: url('https://img.icons8.com/?size=100&id=8kgqBk4Qgj9P&format=png&color=000000');
+
+     vertical-align: middle;
+      }
+.iSQL::before  {
+
+ 
+
+       content: url('https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000');
+
+       vertical-align: middle;
+       
+}
+
+.iCSS::before {
+
+  content: url('https://img.icons8.com/?size=100&id=38986&format=png&color=000000');
+  vertical-align: middle;
+
+}
+
+.iHTML::before {
+
+    content: url('https://img.icons8.com/?size=100&id=59916&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  .iReact::before {
+
+    content: url('https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  .iRedux::before {
+
+    content: url('https://img.icons8.com/?size=100&id=kKz6pJYSDL24&format=png&color=000000');
+    vertical-align: middle;
+  
+  }
+
+  /* Project Page */
+  .projectHeader {
+
+    
+  display: flex;
+ 
+  width: auto;
+
+
+  }
+
+  .sectionProject {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.navProject {
+  display: flex;
+  gap: 10px; 
+}
+
+.tableProject, thead, tbody, tr, td {
+
+   border: 2px solid black;
+   background-color: azure;
+
+}
+
+.tableProject{
+
+   width: 400px;
+   height: 100px;
+   margin-top: 70px;
+   
+
+}
+
+.generalInformation {
+
+  border: 2px solid red;
+
+
+
+}
+
+.sectionProject {
+
+  display: flex;
+  flex-direction:column ;
+
+
+
+}
+
+.projects {
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+
+.buttonSection {
+
+   position: fixed;
+   height: 80px;
+
+   display: flex;
+   align-items: flex-end ;
+   justify-content: flex-start;
+   bottom: 20px; 
+   left: 20px;  
+
+
+}
+
+
+/* Other Page */
+
+.skills {
+
+   
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+/* Contact info page */
+
+.contactBody {
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 70px;
+  background-image: url("https://img.freepik.com/free-photo/horizontal-shot-abstract-buildings-with-white-metallic-ribs-glass-windows_181624-5395.jpg?t=st=1745645912~exp=1745649512~hmac=49430db6ac6bb4832fa9fabd50187e11d424db873af0d3187ebc478c50f51f55&w=2000");
+}
+
+.listOfLinks, h2 {
+
+    display: flex;
+  
+}
+
+.contactHeader{
+
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.informationCOntainer {
+display: flex;
+align-items: flex-end;
+justify-content: center;
+
+width: 100%;
+height: auto;
+
+}
+
+.infoDiv{
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+/* about me page */
+
+.para, .para1, .para2, .para3, .para4, .para5, .para6 {
+
+ width: auto;
+}
+
+.myInfo {
+
+   background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1745977628~exp=1745981228~hmac=5f1bde60d7457b1a8a9906752c6841659759495a9f595b45373e221ed34da2c2&w=2000');
+
+
+}
